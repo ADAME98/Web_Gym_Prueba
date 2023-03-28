@@ -1,0 +1,271 @@
+/* Estilos personalizados */
+
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #5bb050;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Estilos del carrusel */
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    color: #1a1a1a;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: none;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #1a1a1a;
+}
+
+.card-text {
+    color: #333;
+}
+
+/* Estilos del formulario de contacto */
+form label {
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos del formulario de suscripción */
+form.form-inline {
+    justify-content: flex-end;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Colores y estilo relacionado con gimnasio */
+.bg-gym-primary {
+    background-color: #1a1a1a;
+}
+
+.text-gym-primary {
+    color: #1a1a1a;
+}
+
+.bg-gym-secondary {
+    background-color: #007bff;
+}
+
+.text-gym-secondary {
+    color: #007bff;
+}
+
+.bg-gym-accent {
+    background-color: #ff8c00;
+}
+
+.text-gym-accent {
+    color: #ff8c00;
+}
+
+.btn-gym-accent {
+    background-color: #ff8c00;
+    color: #fff;
+}
+
+.btn-gym-accent:hover {
+    background-color: #e86f00;
+    color: #fff;
+}
+
+/* Estilos para los iconos de Font Awesome */
+.fa {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.fa:hover {
+    color: #f26522;
+}
+
+/* Estilos para el modal de promoción especial */
+.modal-content {
+    background-color: #e0e0e0;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+/* Estilos para la fuente personalizada */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Estilos para la sección de contador */
+.bg-gym-secondary h3 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* Estilos para la sección de testimonios */
+.bg-gym-tertiary {
+    background-color: #222;
+}
+
+.carousel-item {
+    min-height: 200px;
+}
+
+/* Estilos para la sección de entrenadores */
+.trainers {
+    background-color: #f8f9fa;
+}
+
+/* Estilos para la sección de planes y precios */
+.pricing {
+    background-color: #222;
+}
+
+/*correo y suscribirse*/
+col-md-6 {
+    margin: auto;
+    align-self: auto;
+}
+
+col-md-7 {
+    margin-left: 7%;
+}
+
+col-md-8 {
+    margin-left: 41%;
+}
+
+.carousel-item {
+    max-width: 100%;
+    height: 50%;
+}
+
+/* Transición suave al cambiar de tema */
+body,
+.navbar,
+.footer {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilos para el tema oscuro */
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme .navbar,
+.dark-theme .footer {
+    background-color: #222;
+}
+
+/* Personalizar elementos en el tema oscuro */
+.dark-theme a,
+.dark-theme .navbar-brand,
+.dark-theme .nav-link {
+    color: #fff;
+}
+
+.dark-theme a:hover,
+.dark-theme .navbar-brand:hover,
+.dark-theme .nav-link:hover {
+    color: #ccc;
+}
+
+.dark-theme .btn-outline-primary {
+    color: #fff;
+    border-color: #fff;
+}
+
+.dark-theme .btn-outline-primary:hover {
+    color: #333;
+    background-color: #fff;
+}
+
+.dark-theme .section-title {
+    color: #ccc;
+}
+
+.dark-theme .section-title:hover {
+    color: #fff;
+}
+
+.dark-theme .card {
+    background-color: #444;
+}
+
+.dark-theme .card .card-title,
+.dark-theme .card .card-text {
+    color: #fff;
+}

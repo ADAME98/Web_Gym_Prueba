@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Marca Fitness</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Barra de navegación existente -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gym-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Marca Fitness</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-nosotros">Sobre nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#productos-servicios">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#entrenadores">Entrenadores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#planes">Planes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Carrusel de imágenes -->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/2021-02-09.jpg" class="d-block w-100" alt="Imagen 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Imagen 1</h5>
+                        <p>Descripción de la imagen 1</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/1605690405567.jpg" class="d-block w-100" alt="Imagen 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Imagen 2</h5>
+                        <p>Descripción de la imagen 2</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/1605690405581.jpg" class="d-block w-100" alt="Imagen 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Imagen</h5>
+                        <p>Descripción de la imagen 3</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </section>
+    <!-- Sección de contador -->
+    <section class="bg-gym-secondary py-5">
+        <div class="animate-on-scroll">
+            <div class="container">
+                <h2 class="text-center text-white">¡Únete a nuestra comunidad de fitness!</h2>
+                <div class="row text-center text-white mt-4">
+                    <div class="col-md-4">
+                        <h3 id="membersCount">0</h3>
+                        <p>Miembros</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 id="trainersCount">0</h3>
+                        <p>Entrenadores</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 id="classesCount">0</h3>
+                        <p>Clases</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sobre nosotros -->
+    <section id="sobre-nosotros" class="py-5">
+        <div class="container">
+            <h2>Sobre nosotros</h2>
+            <p>Aquí puedes describir la historia y misión de tu marca fitness.</p>
+        </div>
+    </section>
+    <!-- Productos -->
+    <section id="productos-servicios" class="bg-light py-5">
+        <div class="container">
+            <h2>Productos</h2>
+            <div class="row">
+                <!-- Tarjeta de producto/servicio 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="producto1.jpg" class="card-img-top" alt="Producto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 1</h5>
+                            <p class="card-text">Descripción del producto 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta de producto/servicio 2 -->
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="producto2.jpg" class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 2</h5>
+                            <p class="card-text">Descripción del producto 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta de producto/servicio 3 -->
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="producto3.jpg" class="card-img-top" alt="Producto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 3</h5>
+                            <p class="card-text">Descripción del producto 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de Nuestros entrenadores -->
+    <section id="entrenadores" class="trainers py-5">
+        <div class="container">
+            <h2 class="text-center">Nuestros Entrenadores</h2>
+            <!-- Contenido de la sección de entrenadores -->
+        </div>
+    </section>
+
+    <!-- Sección de Planes y precios -->
+    <section id="planes" class="pricing bg-gym-tertiary py-5">
+        <div class="container">
+            <h2 class="text-center text-white">Planes y Precios</h2>
+            <!-- Contenido de la sección de planes y precios -->
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="py-5">
+        <div class="container">
+            <h2>Blog</h2>
+            <p>En esta sección, puedes mostrar tus últimos artículos o recursos.</p>
+        </div>
+    </section>
+    <!-- Testimonios -->
+    <!-- Sección de testimonios -->
+    <section id="testimonios" class="container mt-5">
+        <h2 class="text-center mb-4">Testimonios de nuestros clientes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card testimonio-card">
+                    <img src="cliente1.jpg" class="card-img-top" alt="Cliente 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Cliente 1</h5>
+                        <p class="card-text">"Mi experiencia con Mi Marca Fitness ha sido increíble. He logrado mis
+                            objetivos gracias a sus planes de entrenamiento y su equipo de profesionales."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card testimonio-card">
+                    <img src="cliente2.jpg" class="card-img-top" alt="Cliente 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Cliente 2</h5>
+                        <p class="card-text">"Los entrenadores de Mi Marca Fitness son muy atentos y siempre están
+                            dispuestos a ayudar. Sus programas de nutrición también me han ayudado a mejorar mi
+                            alimentación."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card testimonio-card">
+                    <img src="cliente3.jpg" class="card-img-top" alt="Cliente 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Cliente 3</h5>
+                        <p class="card-text">"Desde que empecé a entrenar con Mi Marca Fitness, mi salud y estado físico
+                            han mejorado significativamente. Estoy muy satisfecho con los resultados."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+    <!-- Contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.</p>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" class="form-control" name="mensaje" rows="5" required></textarea>
+                </div>
+                <input type="submit" class="btn btn-dark" value="Enviar">
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h4 class="col-md-8">Suscríbete a nuestro boletín</h4>
+                    <form class="form-inline">
+                        <div class="form-group mb-2">
+                            <label for="correoBoletin" class="sr-only">Correo electrónico</label>
+                            <input type="email" class="form-control" id="correoBoletin"
+                                placeholder="Correo electrónico">
+                        </div>
+                        <button type="submit" class="btn btn-light mb-2 ml-2">Suscribirse</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; Mi Marca Fitness. Todos los derechos reservados.</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="promoModal" tabindex="-1" role="dialog" aria-labelledby="promoModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="promoModalLabel">¡Promoción Especial!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>¡Aprovecha nuestra oferta exclusiva! Suscríbete hoy y obtén un 20% de descuento en tu primera
+                        membresía.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-gym-primary">Suscribirse ahora</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Más contenido -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
